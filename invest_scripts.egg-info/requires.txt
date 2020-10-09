@@ -1,7 +1,0 @@
-bs4
-requests
-selenium
-numpy
-pandas
-openpyxl
-xlrd

@@ -1,6 +1,0 @@
-setup.py
-invest_scripts.egg-info/PKG-INFO
-invest_scripts.egg-info/SOURCES.txt
-invest_scripts.egg-info/dependency_links.txt
-invest_scripts.egg-info/requires.txt
-invest_scripts.egg-info/top_level.txt
