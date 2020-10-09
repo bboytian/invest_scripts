@@ -1,0 +1,4 @@
+*_secret*
+_records/*
+*cronlogs
+*__pycache__

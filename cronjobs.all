@@ -1,0 +1,4 @@
+00 17 * * * $wd/RUN_FILE_SENDER.command > $wd/file_manager/cronlogs/file_sender_$(date +"\%Y-\%m-\%d").log 2>&1
+10 17 * * * $wd/file_manager/RUN_FILE_RECEIVER.command > $wd/file_manager/cronlogs/file_receiver_$(date +"\%Y-\%m-\%d").log 2>&1
+00 18 * * * $wd/RUN_DATASTORE_UPDATER.command > $wd/datastore_updater/cronlogs/$(date +"\%Y-\%m-\%d").log 2>&1
+10 18 * * * $wd/RUN_ELN_TRACKER.command > $wd/eln_tracker/cronlogs/$(date +"\%Y-\%m-\%d").log 2>&1
